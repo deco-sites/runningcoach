@@ -1,1 +1,10 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [],
+  "subscribe": {
+    "title": "Thank you for reading through and enjoy our product",
+    "instructions": "<p>Enter your email to learn more about it and to keep updated!</p>"
+  }
+}

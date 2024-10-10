@@ -54,7 +54,7 @@
       "description": "Get personalized running plans, real-time feedback, and motivation right in your WhatsApp. Our AI-powered coach adapts to your goals and schedule, helping you achieve your running dreams.",
       "descriptionPlacement": "left",
       "tagline": "Run Smarter, Not Harder",
-      "image": "https://example.com/running-coach-image.jpg",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/13a125e9-4143-40f8-afeb-5848ba5f5f7f/DALLE-2024-10-10-15.09.54---A-friendly-capybara-designed-as-a-marathon-training-coach-in-a-fun-and-whimsical-Disney-inspired-style.-The-capybara-wears-a-sporty-coach-outfit-com.webp",
       "placement": "right",
       "cta": [
         {
@@ -75,42 +75,15 @@
       "ctaPlacement": "left"
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right",
-      "title": "Your Personal WhatsApp Running Coach",
-      "titlePlacement": "left",
-      "description": "Get personalized running plans, real-time feedback, and motivation right in your WhatsApp. Our AI-powered coach adapts to your goals and schedule, making your running journey easier and more enjoyable than ever.",
-      "descriptionPlacement": "left",
-      "tagline": "Run smarter, not harder",
-      "image": "https://example.com/running-coach-image.jpg",
-      "cta": [
-        {
-          "href": "#get-started",
-          "text": "Start Your Free Trial",
-          "style": "Outline"
-        },
-        {
-          "href": "#learn-more",
-          "text": "Learn More",
-          "style": "Ghost"
-        }
-      ],
-      "ctaPlacement": "left",
-      "disableSpacing": {
-        "top": false,
-        "bottom": false
-      }
-    },
-    {
       "__resolveType": "site/sections/BlogPosts.tsx",
       "title": "Latest Running Tips and Insights",
       "description": "Stay updated with the latest running advice, training techniques, and success stories from our WhatsApp Running Coach community.",
       "posts": [
         {
           "title": "5 Essential Stretches for Runners",
-          "author": "Coach Maria",
+          "author": "Coach Anitej",
           "excerpt": "Discover the key stretches that every runner should incorporate into their routine to prevent injuries and improve performance.",
-          "image": "https://example.com/running-stretches.jpg",
+          "image": "https://media-bos5-1.cdn.whatsapp.net/v/t61.24694-24/459027487_1078265417440002_1627485996656981139_n.jpg?ccb=11-4&oh=01_Q5AaIFwxQQyMsCM3s4frtbBDqpJN_kqUaKdVC8WwBFYN12DH&oe=6713F455&_nc_sid=5e03e0&_nc_cat=107",
           "date": "2023-05-15",
           "readingTime": "5 min read",
           "tags": [
@@ -123,7 +96,7 @@
           "title": "Nutrition Guide for Marathon Training",
           "author": "Coach Alex",
           "excerpt": "Learn about the best foods to fuel your long runs and how to maintain proper nutrition throughout your marathon training.",
-          "image": "https://example.com/marathon-nutrition.jpg",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/b44343dd-1083-483c-a6d7-922c444ff703/Create-an-image-that-shows-a-healthy-nutrition-plan-in-the-style-of-a-late-19th-century-fairytale-illustration.-The-plan-should-feature-a-variety-of-visually-appealing-foods-arranged-in-a-way-that-emphasizes-their-color-texture-and-overall-allure.",
           "date": "2023-05-10",
           "readingTime": "8 min read",
           "tags": [
@@ -136,7 +109,7 @@
           "title": "Success Story: From Couch to 5K with WhatsApp Coaching",
           "author": "Sarah J.",
           "excerpt": "Read how Sarah transformed from a sedentary lifestyle to completing her first 5K race with the help of our WhatsApp Running Coach.",
-          "image": "https://example.com/couch-to-5k.jpg",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/dac1de95-f894-4a7f-92d8-79cf4f977696/Illustrate-a-large-group-of-variously-dressed-individuals-partaking-in-a-running-event.-Each-individual-exudes-dynamism-and-energy-their-movements-fluid-as-if-bounding-forward-in-a-5K-marathon.-In-the-backdrop-depict-an-imaginative-environment-reminiscent-of-early-1900s-storybook-illustrations-evoking-a-sense-of-whimsy-and-joy-similar-to-the-magical-charm-of-early-Disney-animations.",
           "date": "2023-05-05",
           "readingTime": "6 min read",
           "tags": [
@@ -154,27 +127,27 @@
         {
           "content": {
             "description": "Coach's WhatsApp program has transformed my running journey. The personalized plans and constant support have helped me achieve my marathon goals!",
-            "avatar": "https://example.com/runner1-avatar.jpg",
+            "avatar": "https://media-bos5-1.cdn.whatsapp.net/v/t61.24694-24/459027487_1078265417440002_1627485996656981139_n.jpg?ccb=11-4&oh=01_Q5AaIFwxQQyMsCM3s4frtbBDqpJN_kqUaKdVC8WwBFYN12DH&oe=6713F455&_nc_sid=5e03e0&_nc_cat=107",
             "alt": "Happy marathon runner",
-            "name": "Sarah Johnson",
+            "name": "Anitej Thamma",
             "position": "Marathon Runner"
           }
         },
         {
           "content": {
             "description": "As a beginner, I was intimidated by running. But with Coach's WhatsApp guidance, I've gone from couch to 5K in just 8 weeks!",
-            "avatar": "https://example.com/runner2-avatar.jpg",
+            "avatar": "https://media-bos5-1.cdn.whatsapp.net/v/t61.24694-24/456567608_1049872113806153_3874357697602876038_n.jpg?ccb=11-4&oh=01_Q5AaICL9LGqo4zfgYbCN5S3wWJgqALxPKrxncYQcHBhVSvOP&oe=671415AD&_nc_sid=5e03e0&_nc_cat=104",
             "alt": "Smiling beginner runner",
-            "name": "Mike Chen",
+            "name": "Berke Altiparmak",
             "position": "5K Enthusiast"
           }
         },
         {
           "content": {
             "description": "The convenience of getting expert advice via WhatsApp is unbeatable. Coach's tips have improved my form and prevented injuries.",
-            "avatar": "https://example.com/runner3-avatar.jpg",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/fd94af9f-baee-4fe4-b26f-e7e9104f949c/5O6A9443.jpg",
             "alt": "Trail runner in action",
-            "name": "Emma Rodriguez",
+            "name": "Itamar Rocha Filho",
             "position": "Trail Runner"
           }
         }
@@ -189,7 +162,8 @@
       "description": "Get answers to common questions about our WhatsApp Running Coach service",
       "cta": {
         "href": "/contact",
-        "text": "Still have questions? Contact us"
+        "text": "Still have questions? Contact us",
+        "outline": false
       },
       "questions": [
         {
