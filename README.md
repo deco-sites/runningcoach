@@ -1,4 +1,4 @@
-# Landing — deco.cx template 
+# Landing Page using deco.cx
 
 Welcome to your [deco.cx](https://deco.cx) site!
 
