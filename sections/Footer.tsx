@@ -30,12 +30,6 @@ export interface Props {
   };
   links?: Column[];
   subscribe?: Subscribe;
-  madeWith?: {
-    label?: string;
-    src?: ImageWidget;
-    href?: string;
-  };
-  copyright?: string;
   bottomLinks?: Items[];
   social?: Social[];
 }
@@ -85,13 +79,6 @@ export default function Footer({
     instructions:
       "By subscribing you agree to with our <a href='/' target='_blank' class='link'>Privacy Policy</a> and provide consent to receive updates from our company.",
   },
-  madeWith = {
-    label: "Made with",
-    src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/cc202be0-af57-4b32-b9c9-d1d7dc97bf85",
-    href: "https://deco.cx",
-  },
-  copyright = "© 2024 deco.cx. All rights reserved.",
   bottomLinks = [
     { label: "Privacy Policy", href: "/" },
     { label: "Terms of Service", href: "/" },
@@ -160,20 +147,6 @@ export default function Footer({
         </div>
         <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-8">
           <div class="flex flex-col gap-4 items-center lg:flex-row lg:gap-6">
-            <a
-              href={madeWith?.href}
-              class="flex items-center gap-2"
-              target="_blank"
-            >
-              <span>{madeWith?.label}</span>
-              <Image
-                src={madeWith?.src || ""}
-                width={100}
-                height={28}
-                alt={madeWith?.label}
-              />
-            </a>
-            <span>{copyright}</span>
             <div class="flex gap-2 justify-between lg:gap-6">
               {bottomLinks?.map((item) => (
                 <a class="link" href={item.href} target="_blank">

@@ -54,7 +54,7 @@
       "description": "Get personalized running plans, real-time feedback, and motivation right in your WhatsApp. Our AI-powered coach adapts to your goals and schedule, helping you achieve your running dreams.",
       "descriptionPlacement": "left",
       "tagline": "Run Smarter, Not Harder",
-      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/13a125e9-4143-40f8-afeb-5848ba5f5f7f/DALLE-2024-10-10-15.09.54---A-friendly-capybara-designed-as-a-marathon-training-coach-in-a-fun-and-whimsical-Disney-inspired-style.-The-capybara-wears-a-sporty-coach-outfit-com.webp",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/e5582651-b9dd-4843-9e3d-04bc35d80ab6/CapyCoach.png",
       "placement": "right",
       "cta": [
         {
@@ -189,99 +189,43 @@
       ]
     },
     {
-      "__resolveType": "Footer",
-      "logo": {
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
-        "alt": "RunCoach WhatsApp Logo"
-      },
-      "links": [
-        {
-          "title": "Features",
-          "items": [
-            {
-              "label": "Personalized Training Plans",
-              "href": "#features"
-            },
-            {
-              "label": "Real-time Coaching",
-              "href": "#real-time-coaching"
-            },
-            {
-              "label": "Progress Tracking",
-              "href": "#progress-tracking"
-            }
-          ]
-        },
-        {
-          "title": "About",
-          "items": [
-            {
-              "label": "Our Story",
-              "href": "#our-story"
-            },
-            {
-              "label": "Team",
-              "href": "#team"
-            },
-            {
-              "label": "Testimonials",
-              "href": "#testimonials"
-            }
-          ]
-        },
-        {
-          "title": "Support",
-          "items": [
-            {
-              "label": "FAQ",
-              "href": "#faq"
-            },
-            {
-              "label": "Contact Us",
-              "href": "#contact"
-            },
-            {
-              "label": "Privacy Policy",
-              "href": "/privacy-policy"
-            }
-          ]
-        }
-      ],
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [],
       "subscribe": {
-        "title": "Get Running Tips",
-        "description": "Subscribe to our newsletter for weekly running tips and motivation.",
-        "instructions": "Enter your email to join our running community and receive exclusive content."
+        "title": "Thank you for reading through and enjoy our product",
+        "instructions": "<p>Enter your email to learn more about it and to keep updated!</p>"
       },
-      "madeWith": {
-        "label": "Made with ❤️ by AC 215 Team at Harvard",
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
-        "href": "https://www.harvard.edu/"
-      },
-      "copyright": "© 2023 RunCoach WhatsApp. All rights reserved.",
       "bottomLinks": [
         {
-          "label": "Terms of Service",
-          "href": "/terms"
+          "label": "Privacy",
+          "href": "/home"
         },
         {
-          "label": "Privacy Policy",
-          "href": "/privacy"
+          "label": "Terms and conditions",
+          "href": "/home"
+        },
+        {
+          "label": "Contact Us",
+          "href": "/home"
         }
       ],
       "social": [
         {
           "network": "Facebook",
-          "href": "https://www.facebook.com/runcoachwhatsapp"
+          "href": "/home"
         },
         {
           "network": "Instagram",
-          "href": "https://www.instagram.com/runcoachwhatsapp"
+          "href": "/home"
         },
         {
           "network": "X - Twitter",
-          "href": "https://twitter.com/runcoachwhatsapp"
+          "href": "/home"
         }
-      ]
+      ],
+      "logo": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/1c67c0a1-d1c6-46f8-a726-356e14662ad5/A-logo-of-a-capy-(or-capybara)-that-is-depicted-as-a-running-coach"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
