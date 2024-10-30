@@ -123,20 +123,9 @@ export default function Footer({
             <h4 class="font-semibold mb-4">{subscribe?.title}</h4>
             <form class="flex flex-col gap-4">
               <p class="font-normal">{subscribe.description}</p>
-              <div class="flex gap-4">
-                <input
-                  type="text"
-                  placeholder="Enter your email"
-                  class="w-full input input-bordered input-primary"
-                />
-                <button
-                  type="submit"
-                  class="btn btn-outline font-normal"
-                  aria-label="Subscribe"
-                >
-                  Subscribe
-                </button>
-              </div>
+                <div id="getWaitlistContainer" data-waitlist_id="21674" data-widget_type="WIDGET_2"></div>
+                <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css" />
+                <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
               <p
                 class="text-xs"
                 dangerouslySetInnerHTML={{ __html: subscribe.instructions }}

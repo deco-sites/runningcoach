@@ -4,19 +4,19 @@
   "sections": [
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Unlock Your Running Potential with WhatsApp Coaching</p>",
-      "description": "Transform your running journey with personalized coaching delivered straight to your phone. Our innovative WhatsApp-based running coach provides expert guidance, tailored training plans, and real-time support to help you achieve your running goals, whether you're a beginner or an experienced marathoner.",
+      "title": "<p>Revolutionize Your Running with WhatsApp Coaching</p>",
+      "description": "Experience the future of running coaching right on your phone. Our AI-powered WhatsApp coach delivers personalized training plans, real-time feedback, and motivation to runners of all levels. From couch to 5K or marathon PR, we're here to guide you every step of the way.",
       "image": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       "placement": "right",
       "cta": [
         {
           "href": "#get-started",
-          "text": "Start Your Free Trial",
+          "text": "Start Your Free 7-Day Trial",
           "outline": false
         },
         {
           "href": "#learn-more",
-          "text": "Learn More",
+          "text": "Explore Features",
           "outline": true
         }
       ]
@@ -83,7 +83,7 @@
           "title": "5 Essential Stretches for Runners",
           "author": "Coach Anitej",
           "excerpt": "Discover the key stretches that every runner should incorporate into their routine to prevent injuries and improve performance.",
-          "image": "https://media-bos5-1.cdn.whatsapp.net/v/t61.24694-24/459027487_1078265417440002_1627485996656981139_n.jpg?ccb=11-4&oh=01_Q5AaIFwxQQyMsCM3s4frtbBDqpJN_kqUaKdVC8WwBFYN12DH&oe=6713F455&_nc_sid=5e03e0&_nc_cat=107",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/9451e38a-47a1-47aa-8349-9a6def2d21af/generate-a-running-marathon-stretching-crew-yoga",
           "date": "2023-05-15",
           "readingTime": "5 min read",
           "tags": [
@@ -127,7 +127,7 @@
         {
           "content": {
             "description": "Coach's WhatsApp program has transformed my running journey. The personalized plans and constant support have helped me achieve my marathon goals!",
-            "avatar": "https://media-bos5-1.cdn.whatsapp.net/v/t61.24694-24/459027487_1078265417440002_1627485996656981139_n.jpg?ccb=11-4&oh=01_Q5AaIFwxQQyMsCM3s4frtbBDqpJN_kqUaKdVC8WwBFYN12DH&oe=6713F455&_nc_sid=5e03e0&_nc_cat=107",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/230fbe04-2591-403f-abbc-eb6a88a86ca1/Unsplash-picture.jpg",
             "alt": "Happy marathon runner",
             "name": "Anitej Thamma",
             "position": "Marathon Runner"
@@ -136,7 +136,7 @@
         {
           "content": {
             "description": "As a beginner, I was intimidated by running. But with Coach's WhatsApp guidance, I've gone from couch to 5K in just 8 weeks!",
-            "avatar": "https://media-bos5-1.cdn.whatsapp.net/v/t61.24694-24/456567608_1049872113806153_3874357697602876038_n.jpg?ccb=11-4&oh=01_Q5AaICL9LGqo4zfgYbCN5S3wWJgqALxPKrxncYQcHBhVSvOP&oe=671415AD&_nc_sid=5e03e0&_nc_cat=104",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/65657371-a14c-4a1a-b761-19e0d8c1b425/Unsplash-picture.jpg",
             "alt": "Smiling beginner runner",
             "name": "Berke Altiparmak",
             "position": "5K Enthusiast"
@@ -193,7 +193,8 @@
       "links": [],
       "subscribe": {
         "title": "Thank you for reading through and enjoy our product",
-        "instructions": "<p>Enter your email to learn more about it and to keep updated!</p>"
+        "instructions": "<p></p>",
+        "description": "Sign up for early access below!"
       },
       "bottomLinks": [
         {
@@ -224,7 +225,8 @@
         }
       ],
       "logo": {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/1c67c0a1-d1c6-46f8-a726-356e14662ad5/A-logo-of-a-capy-(or-capybara)-that-is-depicted-as-a-running-coach"
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/1c67c0a1-d1c6-46f8-a726-356e14662ad5/A-logo-of-a-capy-(or-capybara)-that-is-depicted-as-a-running-coach",
+        "alt": "a"
       }
     }
   ],

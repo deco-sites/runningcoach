@@ -1913,16 +1913,6 @@ input.tab:checked + .tab-content,
   outline-offset: 2px;
   outline-color: var(--fallback-bc,oklch(var(--bc)/0.2));
 }
-.input-primary {
-  --tw-border-opacity: 1;
-  border-color: var(--fallback-p,oklch(var(--p)/var(--tw-border-opacity)));
-}
-.input-primary:focus,
-    .input-primary:focus-within {
-  --tw-border-opacity: 1;
-  border-color: var(--fallback-p,oklch(var(--p)/var(--tw-border-opacity)));
-  outline-color: var(--fallback-p,oklch(var(--p)/1));
-}
 .input-disabled,
   .input:disabled,
   .input[disabled] {
