@@ -2,25 +2,25 @@ import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
 export interface Column {
-  title: string;
-  items: Items[];
+  title?: string;
+  items?: Items[];
 }
 
 export interface Items {
-  label: string;
-  href: string;
+  label?: string;
+  href?: string;
 }
 
 export interface Subscribe {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   /** @format rich-text */
-  instructions: string;
+  instructions?: string;
 }
 
 export interface Social {
-  network: "Facebook" | "Instagram" | "Linkedin" | "X - Twitter" | "Youtube";
-  href: string;
+  network?: "Facebook" | "Instagram" | "Linkedin" | "X - Twitter" | "Youtube";
+  href?: string;
 }
 
 export interface Props {
@@ -95,45 +95,6 @@ export default function Footer({
   return (
     <div class="lg:container mx-auto md:max-w-6xl px-4 pt-16 text-sm">
       <div class="flex flex-col gap-20">
-        <div class="flex flex-col gap-6 justify-between lg:flex-row">
-          <div>
-            <Image
-              src={logo.src || ""}
-              width={100}
-              height={28}
-              alt={logo.alt}
-            />
-          </div>
-          <div class="flex gap-9">
-            {links?.map((link) => (
-              <div>
-                <h4 class="font-semibold mb-4">{link.title}</h4>
-                {link.items?.map((item) => (
-                  <a
-                    class="block hover:underline link no-underline py-1"
-                    href={item.href}
-                  >
-                    {item.label}
-                  </a>
-                ))}
-              </div>
-            ))}
-          </div>
-          <div class="lg:w-[40%]">
-            <h4 class="font-semibold mb-4">{subscribe?.title}</h4>
-            <form class="flex flex-col gap-4">
-              <p class="font-normal">{subscribe.description}</p>
-                <div id="getWaitlistContainer" data-waitlist_id="21674" data-widget_type="WIDGET_2"></div>
-                <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css" />
-                <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
-              <p
-                class="text-xs"
-                dangerouslySetInnerHTML={{ __html: subscribe.instructions }}
-              >
-              </p>
-            </form>
-          </div>
-        </div>
         <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-8">
           <div class="flex flex-col gap-4 items-center lg:flex-row lg:gap-6">
             <div class="flex gap-2 justify-between lg:gap-6">
