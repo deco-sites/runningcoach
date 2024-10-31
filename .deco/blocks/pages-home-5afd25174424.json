@@ -9,7 +9,7 @@
       "placement": "right",
       "cta": [
         {
-          "href": "#early-access",
+          "href": "/early-access",
           "text": "Join our wait list",
           "outline": false
         },
@@ -31,7 +31,7 @@
       "placement": "right",
       "cta": [
         {
-          "href": "#early-access",
+          "href": "/early-access",
           "text": "Start Your Journey",
           "style": "Outline"
         },
