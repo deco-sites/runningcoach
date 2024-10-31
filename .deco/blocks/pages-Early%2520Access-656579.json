@@ -1,0 +1,40 @@
+{
+  "name": "Early Access",
+  "path": "/early-access",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p>Join our Early Access and be part of the movement!</p>",
+        "description": "All users who sign up for the early access will be granted access to our Alpha version in December.",
+        "cta": [
+          {
+            "text": "Take me there!",
+            "href": "#sign-up"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/EarlyAcessForm.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Footer.tsx",
+        "subscribe": {}
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

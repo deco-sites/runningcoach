@@ -2839,6 +2839,9 @@ input.tab:checked + .tab-content,
 .min-h-\[292px\] {
   min-height: 292px;
 }
+.min-h-\[30vh\] {
+  min-height: 30vh;
+}
 .min-h-\[40px\] {
   min-height: 40px;
 }
@@ -2963,6 +2966,9 @@ input.tab:checked + .tab-content,
 }
 .max-w-full {
   max-width: 100%;
+}
+.max-w-lg {
+  max-width: 32rem;
 }
 .max-w-sm {
   max-width: 24rem;
@@ -3374,6 +3380,9 @@ input.tab:checked + .tab-content,
 .pb-4 {
   padding-bottom: 1rem;
 }
+.pb-8 {
+  padding-bottom: 2rem;
+}
 .pb-\[15px\] {
   padding-bottom: 15px;
 }
@@ -3779,6 +3788,10 @@ input.tab:checked + .tab-content,
 
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:max-w-4xl {
+    max-width: 56rem;
   }
 
   .md\:max-w-6xl {
