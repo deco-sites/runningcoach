@@ -4,14 +4,13 @@
   "sections": [
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Revolutionize Your Running with WhatsApp Coaching</p>",
-      "description": "Experience the future of running coaching right on your phone. Our AI-powered WhatsApp coach delivers personalized training plans, real-time feedback, and motivation to runners of all levels. From couch to 5K or marathon PR, we're here to guide you every step of the way.",
-      "image": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "title": "<p>Revolutionize Your Running with Capy Coach!</p>",
+      "description": "Experience the future of running coaching right on your phone. Our AI-powered WhatsApp coach delivers personalized training plans, feedback, and motivation to runners of all levels. From couch to 5K or marathon PR, we're here to guide you every step of the way. Running has never been easier!",
       "placement": "right",
       "cta": [
         {
-          "href": "#get-started",
-          "text": "Start Your Free 7-Day Trial",
+          "href": "#early-access",
+          "text": "Join our wait list",
           "outline": false
         },
         {
@@ -22,43 +21,17 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Logos.tsx",
-      "title": "Trusted by Top Running Coaches",
-      "logos": [
-        {
-          "src": "https://placehold.co/200x100?text=RunCoach+Pro",
-          "altText": "RunCoach Pro Logo"
-        },
-        {
-          "src": "https://placehold.co/200x100?text=Marathon+Masters",
-          "altText": "Marathon Masters Logo"
-        },
-        {
-          "src": "https://placehold.co/200x100?text=Sprint+Stars",
-          "altText": "Sprint Stars Logo"
-        },
-        {
-          "src": "https://placehold.co/200x100?text=Endurance+Elite",
-          "altText": "Endurance Elite Logo"
-        },
-        {
-          "src": "https://placehold.co/200x100?text=TrackTech+Trainers",
-          "altText": "TrackTech Trainers Logo"
-        }
-      ]
-    },
-    {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
       "title": "Your Personal Running Coach on WhatsApp",
       "titlePlacement": "left",
-      "description": "Get personalized running plans, real-time feedback, and motivation right in your WhatsApp. Our AI-powered coach adapts to your goals and schedule, helping you achieve your running dreams.",
+      "description": "With Capy, you can get tailored training sessions, adapt them according to your routine, keep track of your performance, and get daily reminders! All that without the need to download yet another app!",
       "descriptionPlacement": "left",
       "tagline": "Run Smarter, Not Harder",
       "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/e5582651-b9dd-4843-9e3d-04bc35d80ab6/CapyCoach.png",
       "placement": "right",
       "cta": [
         {
-          "href": "#get-started",
+          "href": "#early-access",
           "text": "Start Your Journey",
           "style": "Outline"
         },
@@ -192,9 +165,7 @@
       "__resolveType": "site/sections/Footer.tsx",
       "links": [],
       "subscribe": {
-        "title": "Thank you for reading through and enjoy our product",
-        "instructions": "<p></p>",
-        "description": "Sign up for early access below!"
+        "instructions": "<p></p>"
       },
       "bottomLinks": [
         {
@@ -224,10 +195,7 @@
           "href": "/home"
         }
       ],
-      "logo": {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/1c67c0a1-d1c6-46f8-a726-356e14662ad5/A-logo-of-a-capy-(or-capybara)-that-is-depicted-as-a-running-coach",
-        "alt": "a"
-      }
+      "logo": {}
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
