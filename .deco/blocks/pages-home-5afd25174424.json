@@ -14,7 +14,7 @@
           "outline": false
         },
         {
-          "href": "#learn-more",
+          "href": "#features",
           "text": "Explore Features",
           "outline": true
         }
@@ -46,6 +46,16 @@
         "bottom": false
       },
       "ctaPlacement": "left"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Features.tsx",
+        "cta": {
+          "text": "Sign Up Now",
+          "href": "https://wa.me/16173860185"
+        }
+      }
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
