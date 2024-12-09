@@ -13,6 +13,7 @@ export interface Question {
 
 export interface Props {
   title?: string;
+  id?: string;
   description?: string;
   cta?: CTA;
   questions?: Question[];
@@ -20,6 +21,7 @@ export interface Props {
 
 export default function BlogPosts({
   title = "FAQs",
+  id = "faq",
   description =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
   cta = { id: "change-me", href: "/", text: "Change me", outline: true },
@@ -52,7 +54,7 @@ export default function BlogPosts({
   ],
 }: Props) {
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm py-12 lg:py-28">
+    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm py-12 lg:py-28" id={id}>
       <div class="flex flex-col lg:flex-row gap-10 lg:gap-20 justify-between">
         <div class="flex-none space-y-6 lg:w-2/5">
           <p class="text-4xl leading-snug">
