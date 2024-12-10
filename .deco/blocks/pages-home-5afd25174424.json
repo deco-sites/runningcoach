@@ -206,10 +206,22 @@
         }
       ],
       "logo": {}
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "type": "website",
+        "title": "Capy Coach",
+        "jsonLDs": [],
+        "noIndexing": false,
+        "titleTemplate": "%s | Maybe your first, but definitely your last Running Coach",
+        "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/1c67c0a1-d1c6-46f8-a726-356e14662ad5/A-logo-of-a-capy-(or-capybara)-that-is-depicted-as-a-running-coach",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/runningcoach/1c67c0a1-d1c6-46f8-a726-356e14662ad5/A-logo-of-a-capy-(or-capybara)-that-is-depicted-as-a-running-coach",
+        "descriptionTemplate": "%s",
+        "description": "Your AI-Powered Running Assistant on WhatsApp"
+      }
     }
   ],
-  "__resolveType": "website/pages/Page.tsx",
-  "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  }
+  "__resolveType": "website/pages/Page.tsx"
 }
